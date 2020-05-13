@@ -1,6 +1,20 @@
-body {
-  background: black;
-  color: #FF0095;
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+header .header__left {
+  display: flex;
+  flex-direction: row;
+}
+
+header .header__right .header__right--ul .header__right--ul--li {
+  list-style: none;
+}
+
+.hero {
+  margin-top: 280px;
 }
 
 

@@ -1,6 +1,18 @@
-$test-color: #FF0095;
+header {
+  // position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  .header__left {
+    display: flex;
+    flex-direction: row;
 
-body {
-  background: black;
-  color: $test-color;
+  }
+  .header__right {
+    .header__right--ul {
+      .header__right--ul--li {
+        list-style: none;
+      }
+    }
+  }
 }

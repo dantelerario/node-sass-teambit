@@ -1,0 +1,15 @@
+// COLORS
+$brown-color: #58402C;
+$blue-btn-color: #233569;
+// GENERAL SETTINGS
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 60%;
+  margin: 0 auto;
+  color: $brown-color;
+  font-family: 'Lato', sans-serif;
+}

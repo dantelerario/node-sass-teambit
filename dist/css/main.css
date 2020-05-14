@@ -57,15 +57,82 @@ header .header__right .header__right--ul .header__right--ul--li:hover {
   color: #233569;
 }
 
-header .header__right .header__right--ul .header__right--btn .header__right--btn--a {
+header .header__right--btn--a {
   text-decoration: none;
   width: 100px;
   border: 1px solid #233569;
   border-radius: 5px;
+  padding: 10px;
+}
+
+header .header__right--btn--a .fa-google {
+  margin-right: 10px;
+}
+
+header .header__right--btn--a:hover {
+  background: #233569;
+  color: #fff;
 }
 
 .hero {
-  margin-top: 280px;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero .hero__left {
+  width: 50%;
+  min-height: 1px;
+  margin: 10px;
+}
+
+.hero .hero__left .hero__left--h1 {
+  font-size: 53px;
+}
+
+.hero .hero__left .hero__left--span {
+  margin: 50px 0;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.hero .hero__left .hero__left--h1--btns {
+  display: flex;
+  align-items: center;
+}
+
+.hero .hero__left .hero__left--h1--btns .hero__left--btn--left,
+.hero .hero__left .hero__left--h1--btns .hero__left--btn--right {
+  border: 1px solid #233569;
+  border-radius: 5px;
+  padding: 10px 24px;
+  margin: 0 10px 0 0;
+  background: rgba(35, 53, 105, 0.9);
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero .hero__left .hero__left--h1--btns .hero__left--btn--left:hover,
+.hero .hero__left .hero__left--h1--btns .hero__left--btn--right:hover {
+  background: #233569;
+}
+
+.hero .hero__left .hero__left--h1--btns .hero__left--btn--left i,
+.hero .hero__left .hero__left--h1--btns .hero__left--btn--right i {
+  margin-right: 10px;
+}
+
+.hero .hero__left .hero__left--h1--btns .hero__left--btn--right {
+  margin-left: 10px;
+}
+
+.hero .hero__right {
+  width: 50%;
 }
 
 

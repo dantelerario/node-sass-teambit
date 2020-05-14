@@ -34,14 +34,20 @@ header {
           color: $blue-btn-color;
         }
       }
-      .header__right--btn {
-         .header__right--btn--a {
-          text-decoration: none;
-          width: 100px;
-          border: 1px solid $blue-btn-color;
-          border-radius: 5px;
-        }
-      }
     }
   }
+  .header__right--btn--a {
+   text-decoration: none;
+   width: 100px;
+   border: 1px solid $blue-btn-color;
+   border-radius: 5px;
+   padding: 10px;
+   .fa-google {
+     margin-right: 10px;
+   }
+   &:hover {
+     background: $blue-btn-color;
+     color: #fff;
+   }
+ }
 }

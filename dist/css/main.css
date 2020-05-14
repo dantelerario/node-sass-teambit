@@ -104,6 +104,7 @@ header .header__right--btn--a:hover {
 .hero .hero__left .hero__left--h1--btns {
   display: flex;
   align-items: center;
+  margin: 20px 0;
 }
 
 .hero .hero__left .hero__left--h1--btns .hero__left--btn--left,
@@ -129,6 +130,19 @@ header .header__right--btn--a:hover {
 
 .hero .hero__left .hero__left--h1--btns .hero__left--btn--right {
   margin-left: 10px;
+}
+
+.hero .hero__left .hero__left--a {
+  text-decoration: none;
+  color: #58402C;
+}
+
+.hero .hero__left .hero__left--a i {
+  margin-left: 10px;
+}
+
+.hero .hero__left .hero__left--a:hover {
+  color: #233569;
 }
 
 .hero .hero__right {
